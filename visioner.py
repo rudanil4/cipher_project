@@ -29,3 +29,4 @@ def VisionerDecrypting(path_in, key, path_out):
                     idx = combined_alphabet.index(symbol)
                     out.write(combined_alphabet[(idx - shift) % alphabet_length])
                     key_count += 1
+

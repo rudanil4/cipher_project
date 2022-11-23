@@ -34,3 +34,4 @@ def VernamDecrypting(path_in, path_out, path_key):
                     key_count += 1
                 else:
                     out.write(symbol)
+
